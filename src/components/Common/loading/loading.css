@@ -1,0 +1,33 @@
+.Loading{
+    position: fixed;
+    display: flex;
+    z-index: 1000;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.LoadingIcons{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    animation:loadingAn1 3s forwards ;
+}
+.Loading__section1{
+  width: 50.05%;
+  opacity: 0.65;
+}
+.Loading__section2{
+    width: 50.05%;
+    opacity: 0.65;
+}
+
+@keyframes loadingAn1 {
+    from{transform:rotate(0deg)}
+    to{transform:rotate(360deg);}
+}

@@ -1,0 +1,48 @@
+.scale{
+    display: flex;
+    right: 0%;
+    position: fixed;
+    align-items: center;
+    z-index:1;
+    height: 90px;
+    top: 30%;
+}
+.scale__section{
+    height: 70px;
+    border-radius: 15px;
+    transform: translateX(110%);
+    width: 108px;
+    margin-right: -108px;
+    transition: 0.7s;
+}
+.scale__active {
+    padding: 10px;
+    gap: 9px;
+    display: flex;
+    margin-right: 3px;
+    transform: translateX(0%);
+    transition:all 0.7s ease;
+    border: 1px solid rgba(79, 79, 79, 0.317);
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.scale__btn{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    transition:all 0.7s ease;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.scale__btn__icons{
+    height: 17px;
+    width: 17px;
+}
+
+.scale__section-active{
+    width: 30px;
+    cursor: pointer;
+    height: 30px;
+}
