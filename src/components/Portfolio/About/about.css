@@ -1,0 +1,20 @@
+.aboutPortfolio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-top: 120px;
+    border-bottom: 1px solid rgb(224, 221, 221);
+}
+.aboutPortfolio__title{
+    font-size: 32px;
+    margin: 3px;
+}
+.aboutPortfolio__text{
+    font-size: 18px;
+    text-align: center;
+    width: 730px;
+}
+.aboutPortfolio__link{
+    padding: 10px 25px;
+}

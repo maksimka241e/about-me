@@ -171,6 +171,9 @@
         bottom: 0%;
         position: fixed;
     }
+    .Header__section1__btn {
+        margin: 10px 0px;
+    }
 }
 @media(max-width:380px){
     .Header__section2__article2__link {

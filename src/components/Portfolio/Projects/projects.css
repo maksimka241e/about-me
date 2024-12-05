@@ -1,58 +1,28 @@
-.Projects{
+.ProjectPortfolio {
     display: flex;
+    padding-top: 100px;
     flex-direction: column;
     padding-bottom: 60px;
 }
-.Projects__article1{
-    padding-bottom: 60px;
-}
-.Projects__article1__title{
-    height: 40px;
-    font-size: 56px;
-    max-width: 474px;
-    width: 100%;
-    text-align: center;
-    padding-top: 20px;
-    margin: 10px 0px;
-    padding-left: 10px;
-}
-.Projects__article1__block{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.Projects__article1__block__text{
-    font-size: 18px;
-}
-.Projects__article1__block__btn{
-    padding: 16px 24px;
-    font-size: 16px;
-    border-radius: 99rem;
-    color: #fff;
-    border: none;
-}
-.Projects__article1__block__link{
-    color: #fff;
-    text-decoration: none;
-}
-.Projects__article2{
+/*  */
+.ProjectPortfolio__AllBlock{
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
 }
-.Projects__article2__block{
+.ProjectPortfolio__AllBlock__div{
     display: flex;
     flex-direction: column;
     width: 47%;
     height: 100%
 }
-.Projects_a{
+.ProjectPortfolio__AllBlock__div__a{
     max-height: 340px;
     max-width: 590px;
     width: 100%;
     height: 100%;
 }
-.Projects__article2__block__img{
+.ProjectPortfolio__AllBlock__div__img{
     max-height: 340px;
     max-width: 570px;
     width: 100%;
@@ -60,31 +30,31 @@
     padding: 7px;
     border: 1px solid rgb(224, 221, 221);
 }
-.Projects__article2__block__img:hover{
+.ProjectPortfolio__AllBlock__div__img:hover{
     transition: 0.5s;
     transform: scale(0.98);
 }
 
-.Projects__article2__block__section1{
+.ProjectPortfolio__AllBlock__div__article1{
     display: flex;
     gap: 10px;
 }
-.Projects__article2__block__section1__text{
+.ProjectPortfolio__AllBlock__div__article1__text{
     padding: 8px 16px;
     border: 1px solid ;
     border-radius: 99rem;
 }
-.Projects__article2__block__section2{
+.ProjectPortfolio__AllBlock__div__article2{
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
-.Projects__article2__block__section2__title{
+.ProjectPortfolio__AllBlock__div__article2__title{
     padding-top: 10px;
     font-size: 24px;
     margin: 0;
 }
-.Projects__article2__block__section2__button{
+.ProjectPortfolio__AllBlock__div__article2__button{
     height: 50px;
     width: 50px;
     border: none;
@@ -94,38 +64,42 @@
     transform: rotate(330deg);
     transition: 0.5s;
 }
-.Projects__article2__block__section2__button:hover{
+.ProjectPortfolio__AllBlock__div__article2__button:hover{
     transition: 0.5s;
     transform: rotate(360deg);
 }
 @media(max-width:1300px){
-    .Projects__article2__block {
+    .ProjectPortfolio__AllBlock__div {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 100%;
     }
-    .Projects__article2__block__section2 {
+    .ProjectPortfolio__AllBlock__div__article2 {
         width: 62%;
         min-width: 570px;
     }
 }
-@media(max-width:1200px){
-    .Projects__article1__block__text {
-        margin-right: 30px;
+@media(max-width:1060px){
+    .aboutPortfolio {
+        width: 97%;
+        margin: auto;
     }
-    .Projects__article1__block__btn {
-        height: 56.80px;
-        font-size: 15px;
-        width: 147px;
+    .aboutPortfolio__text {
+        font-size: 16px;
+        width: auto;
+    }    
+    .aboutPortfolio__title {
+        font-size: 29px;
+        width: auto;
     }
 }
 @media(max-width:950px){
-    .Projects__article2__block__section2 {
+    .ProjectPortfolio__AllBlock__div__article2 {
         width: 100%;
         min-width: initial;
     }
-    .Projects__article2__block__img {
+    .ProjectPortfolio__AllBlock__div__img {
         max-height: 340px;
         max-width: 570px;
         width: 96%;
@@ -135,16 +109,16 @@
     }
 }
 @media(max-width:900px){
-    .Projects__article2__block__section2 {
+    .ProjectPortfolio__AllBlock__div__article2 {
         width: 62%;
         min-width: 570px;
     }
-    .Projects__article2__block {
+    .ProjectPortfolio__AllBlock__div {
         align-items: center;
     }
 }
 @media(max-width:635px){
-    .Projects__article2__block__section2 {
+    .ProjectPortfolio__AllBlock__div__article2 {
         width: 100%;
         min-width: initial;
     }
@@ -154,10 +128,10 @@
         font-size: 48px;
         padding-left: 0px;
     }
-    .Projects__article2__block__section1 {
+    .ProjectPortfolio__AllBlock__div__article1 {
         flex-wrap: wrap;
     }
-    .Projects__article2__block__section1__text {
+    .ProjectPortfolio__AllBlock__div__article1__text {
         font-size: 14px;
     }
 }
@@ -165,7 +139,7 @@
     .Projects__article1__title {
         font-size: 36px;
     }
-    .Projects__article1__block__text {
+    .ProjectPortfolio__AllBlock__div__article1__text {
         font-size: 16px;
     }
 }
