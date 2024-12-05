@@ -7,6 +7,7 @@
     border-bottom: 1px solid rgb(224, 221, 221);
 }
 .aboutPortfolio__title{
+    text-align: center;
     font-size: 32px;
     margin: 3px;
 }
@@ -17,4 +18,14 @@
 }
 .aboutPortfolio__link{
     padding: 10px 25px;
+}
+
+@media(max-width:420px){
+    .aboutPortfolio__title{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .aboutPortfolio__text{
+        font-size: 16px;
+    }
 }
